@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Öğrenci Kayıt Formu</h1>
+
+
+    <label for="ad1">Adınız:</label>
+        <input type="text" id="ad1" name="ad1" required><br><br>
+
+        <label for="ad2">Soyadınız:</label>
+        <input type="text" id="ad2" name="ad2" required><br><br>
+
+        Cinsiyet:
+        <input type="radio" name="cinsiyet" value="kadin">Kadın 
+        <input type="radio" name="cinsiyet" value="erkek">Erkek
+<br><br>
+<label for="tarih">Doğum Tarihi:</label>
+<input type="date" name="tarih" id="tarih"><br><br>
+
+<label for="email">E Posta Adresiniz:</label>
+<input type="email" name="email" id="email" required><br><br>
+<label for="telephone">Telefon Numaranız:</label>
+<input type="tel" name="telephone" id="telephone"><br><br>
+
+<label for="bolum">Bölüm:</label>
+
+<select name="bolum" id="bolum" size="1">
+    <option value="">--Bölüm Seçiniz--</option>
+    <option value="Bilgisayar muhendisliği">Bilgisayar mühendisliği</option>
+    <option value="Elektrik-Elektronik muhendisliği">Elektrik-Elektronik mühendisliği</option>
+    <option value="Bilgisayar Programcılıgı">Bilgisayar Programcılığı</option>
+    <option value="Makine muhendisligi">Makine mühendisliği</option>
+   
+</select>
+<br><br>
+ İlgi alanları:
+        <input type="checkbox" name="spor">spor
+        <input type="checkbox" name="sinema">sinema
+        <input type="checkbox" name="muzik">müzik
+<br><br>
+<input type="submit" value="Gönder">
+
+
+
+</body>
+</html>
